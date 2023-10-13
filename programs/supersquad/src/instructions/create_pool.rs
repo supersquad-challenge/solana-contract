@@ -32,7 +32,8 @@ pub struct CreatePool<'info> {
     #[account(mut)]
     pub payer: Signer<'info>,
 
-    /// The authority of the pool
+    /// CHECK: The authority is signed.
+    #[account(signer)]
     pub authority: AccountInfo<'info>,
 
     /// Solana ecosystem accounts
