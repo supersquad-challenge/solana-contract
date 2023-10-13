@@ -1,12 +1,12 @@
 [package]
-name = "test"
+name = "spersquad"
 version = "0.1.0"
 description = "Created with Anchor"
-edition = "2021"
+edition = "2023"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "test"
+name = "supersquad"
 
 [features]
 no-entrypoint = []
